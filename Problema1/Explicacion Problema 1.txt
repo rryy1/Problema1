@@ -1,0 +1,22 @@
+PROBLEMA 1:
+
+Para este problema quise utilizar un array con un limite de 20 indices, ya que no se especificaba el limite,
+el cual sera llenado con la formula de numeros pares, el cual es (2*n), para mas tarde poder acceder y mostrar
+los numeros pares necesarios.
+
+El programa fue escrito en 2 clases:
+Solopares: contiene el main. Metodos que contiene la logica y solucion de la problematica.
+En la clase Metodos: 
+Se define el array y su tamaño.
+Metodo llenarArray: utilice un for con limite el tamaño del array.
+donde en cada indice del array se le añade un indice multiplicado por 2 asi llenandose solo con numeros impares desde
+el 0.
+
+Metodo mostrarPares: este metodo requiere un int X que sera la entrada de usuario en la clase Main.
+Hice un bucle con limite X (la entrada de usuario), donde se muestra por consola los contenidos del array
+hasta el indice X.
+
+Para la segunda parte cree un metodo llamado mostrarParesPart2, que seria lo mismo que el metodo anterior
+pero en la linea para mostrar en consola el array, le agregue un 1 al indice para mostrar desde el 2do indice del array,
+ asi evitando el 0 en la salida de datos.
+
