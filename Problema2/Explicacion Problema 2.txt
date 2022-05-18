@@ -1,0 +1,11 @@
+PROBLEMA 2:
+
+Para el siguiente problema de sumatorias impares fue importante usar un bucle For en el cual se usa una condicion y
+el operador de resto de la division, si no hay resto, el numero es par. Por lo tanto se filtran solo los numeros impares y se
+realiza una simple sumatoria de la misma variable + el indice impar del for, ya previamente filtrado.
+
+Todo esto fue programado en 2 clases, Impares siendo la clase Main que contiene las entradas de datos y las instancias
+de los metodos de la clase Metodos.
+En la clase Metodos hay 2 algoritmos, sumatoriaImpar: Contiene lo explicado anteriormente
+minmaxImpar: este metodo considera la segunda parte del problema, el cual se resuelve de misma manera pero
+incluyendo 2 nuevos inputs, los cuales fueron reemplazados en los indices del bucle For.

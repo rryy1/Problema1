@@ -1,0 +1,23 @@
+PROBLEMA 3:
+
+Para el problema 3 utilice la tecnica de cambio o reemplazo de variables para secuencias por que
+era la manera mas sencilla para mi para explicar el problema,
+numC seria la suma de numA y numB que serian 0 y 1 respectivamente. (0+1)
+numA pasaria a tomar el valor de numB (0 se convierte en 1)
+numB pasaria a tomar el valor de numC (1 se convierte en 1)
+
+ahora en la siguiente vuelta, este algoritmo haria los siguientes cambios:
+numC se convierte en 2
+numA pasa a tomar el valor de numB (1 se convierte en 1)
+numB pasa a tomar el valor de numC (1 se convierte en 2)
+
+Para la tercera vuelta esto quedaria:
+numC = 1 + 2 = 3
+numA = 2
+numB = 3
+
+y asi sucesivamente cumpliendo con la regla de fibonacci
+
+El programa igual que en los anteriores problemas, se escribio en 2 clases, Fibonacci seria la clase main
+que contiene las entradas de datos y en Metodos estaria el algoritmo principal que consta de un bucle
+For con limite el valor que el usuario ingresa.
